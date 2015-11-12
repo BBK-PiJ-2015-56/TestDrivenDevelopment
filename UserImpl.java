@@ -3,7 +3,8 @@ public class UserImpl implements User{
 	private int libraryId;
 	
 	//Q) The Id is not set at construction time - but isn't this bad practice?
-	public UserImpl(){
+	public UserImpl(String name){
+		this.name = name;
 	}
 	
 	public String getName(){

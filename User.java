@@ -14,4 +14,17 @@ public interface User{
 	* @return     the unique Id number belonging to the user
 	*/
 	public int getId();
+	
+	/**
+	* Registers the user to the given library by returning user's new Id number
+	* @return     the unique Id number belonging to the user
+	*/
+	public int register(Library lib);
+	
+	/**
+	* Returns the library that the user is registered to
+	* @return     the library the user is registered to
+	*/
+	public Library getlib();
+	
 }
