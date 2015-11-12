@@ -15,7 +15,7 @@ public class BookImpl implements Book{
 	* @return     name of the author of the book
 	*/
 	public String getAuthor(){
-		return"";
+		return author;
 	}
 	
 	/**
@@ -24,6 +24,6 @@ public class BookImpl implements Book{
 	*/
 	
 	public String getName(){
-		return "";
+		return name;
 	}	
 }
